@@ -1,0 +1,112 @@
+2026-02-19 12:44:08 | INFO    | org.example.Logging init | TrafficSim | Logger ready (console + traffic_sim.log).
+2026-02-19 12:44:08 | INFO    | org.example.Main bootLog | TrafficSim | App boot @ 2026-02-19 12:44:08
+2026-02-19 12:44:08 | INFO    | org.example.VehicleInjection loadTripRoutesFromRou | TrafficSim | Trips loaded: 5
+2026-02-19 12:44:08 | INFO    | org.example.MapVisualisation initBoundsFromFiles | TrafficSim | Map bounds loaded: sumo\final.net.xml
+2026-02-19 12:44:08 | INFO    | org.example.MapVisualisation loadRoadGeometriesFromNet | TrafficSim | Road geometry loaded: 383 lane-shapes from sumo\final.net.xml
+2026-02-19 12:44:09 | INFO    | org.example.GUI launch | TrafficSim | UI ready. Scenarios + long variants will populate after SUMO starts.
+2026-02-19 12:44:09 | INFO    | org.example.LiveConnectionSumo buildRoutesFileWithVTypesOnly | TrafficSim | Temp manual routes file: C:\Users\jaisw\AppData\Local\Temp\manual_only_2304190254995169559.rou.xml
+2026-02-19 12:44:09 | INFO    | org.example.LiveConnectionSumo run | TrafficSim | Starting SUMO: [sumo-gui, -c, sumo/final.sumocfg, --route-files, C:\Users\jaisw\AppData\Local\Temp\manual_only_2304190254995169559.rou.xml, --start, --quit-on-end]
+2026-02-19 12:44:12 | INFO    | org.example.LiveConnectionSumo run | TrafficSim | SUMO started.
+2026-02-19 12:44:12 | INFO    | org.example.VehicleInjection buildViaPoolOnce | TrafficSim | Via-edge pool built: 105
+2026-02-19 12:44:12 | INFO    | org.example.VehicleInjection buildAndInstallLongVariants | TrafficSim | Built 4 long variants for Route 1 type=car (dest=-4824704#0) | Variant A:edges=26 | Variant B:edges=20 | Variant C:edges=20 | Variant D:edges=18
+2026-02-19 12:44:13 | INFO    | org.example.VehicleInjection buildAndInstallLongVariants | TrafficSim | Built 4 long variants for Route 1 type=truck (dest=-4824704#0) | Variant A:edges=26 | Variant B:edges=18 | Variant C:edges=17 | Variant D:edges=17
+2026-02-19 12:44:13 | INFO    | org.example.VehicleInjection buildAndInstallLongVariants | TrafficSim | Built 4 long variants for Route 1 type=bus (dest=-4824704#0) | Variant A:edges=23 | Variant B:edges=18 | Variant C:edges=20 | Variant D:edges=18
+2026-02-19 12:44:13 | INFO    | org.example.VehicleInjection buildAndInstallLongVariants | TrafficSim | Built 4 long variants for Route 2 type=car (dest=-4824710) | Variant A:edges=21 | Variant B:edges=19 | Variant C:edges=19 | Variant D:edges=15
+2026-02-19 12:44:14 | INFO    | org.example.VehicleInjection buildAndInstallLongVariants | TrafficSim | Built 4 long variants for Route 2 type=truck (dest=-4824710) | Variant A:edges=28 | Variant B:edges=22 | Variant C:edges=20 | Variant D:edges=19
+2026-02-19 12:44:14 | INFO    | org.example.VehicleInjection buildAndInstallLongVariants | TrafficSim | Built 4 long variants for Route 2 type=bus (dest=-4824710) | Variant A:edges=29 | Variant B:edges=25 | Variant C:edges=19 | Variant D:edges=19
+2026-02-19 12:44:15 | INFO    | org.example.VehicleInjection buildAndInstallLongVariants | TrafficSim | Built 4 long variants for Route 3 type=car (dest=132963888#1) | Variant A:edges=32 | Variant B:edges=28 | Variant C:edges=27 | Variant D:edges=29
+2026-02-19 12:44:15 | INFO    | org.example.VehicleInjection buildAndInstallLongVariants | TrafficSim | Built 4 long variants for Route 3 type=truck (dest=132963888#1) | Variant A:edges=28 | Variant B:edges=27 | Variant C:edges=29 | Variant D:edges=30
+2026-02-19 12:44:15 | INFO    | org.example.VehicleInjection buildAndInstallLongVariants | TrafficSim | Built 4 long variants for Route 3 type=bus (dest=132963888#1) | Variant A:edges=28 | Variant B:edges=27 | Variant C:edges=27 | Variant D:edges=29
+2026-02-19 12:44:16 | INFO    | org.example.VehicleInjection buildAndInstallLongVariants | TrafficSim | Built 4 long variants for Route 4 type=car (dest=132963888#1) | Variant A:edges=20 | Variant B:edges=18 | Variant C:edges=18 | Variant D:edges=18
+2026-02-19 12:44:16 | INFO    | org.example.VehicleInjection buildAndInstallLongVariants | TrafficSim | Built 4 long variants for Route 4 type=truck (dest=132963888#1) | Variant A:edges=29 | Variant B:edges=18 | Variant C:edges=18 | Variant D:edges=17
+2026-02-19 12:44:17 | INFO    | org.example.VehicleInjection buildAndInstallLongVariants | TrafficSim | Built 4 long variants for Route 4 type=bus (dest=132963888#1) | Variant A:edges=26 | Variant B:edges=18 | Variant C:edges=18 | Variant D:edges=18
+2026-02-19 12:44:17 | INFO    | org.example.VehicleInjection buildAndInstallLongVariants | TrafficSim | Built 4 long variants for Route 5 type=car (dest=132964155) | Variant A:edges=29 | Variant B:edges=17 | Variant C:edges=21 | Variant D:edges=15
+2026-02-19 12:44:18 | INFO    | org.example.VehicleInjection buildAndInstallLongVariants | TrafficSim | Built 4 long variants for Route 5 type=truck (dest=132964155) | Variant A:edges=25 | Variant B:edges=17 | Variant C:edges=21 | Variant D:edges=15
+2026-02-19 12:44:18 | INFO    | org.example.VehicleInjection buildAndInstallLongVariants | TrafficSim | Built 4 long variants for Route 5 type=bus (dest=132964155) | Variant A:edges=20 | Variant B:edges=17 | Variant C:edges=21 | Variant D:edges=15
+2026-02-19 12:44:18 | INFO    | org.example.VehicleInjection rebuildAllowedRoutesAndDropdown | TrafficSim | Dropdown built. Scenarios=5
+2026-02-19 12:44:28 | INFO    | org.example.LiveConnectionSumo startSimulation | TrafficSim | Simulation START pressed.
+2026-02-19 12:44:32 | INFO    | org.example.LiveConnectionSumo stopSimulation | TrafficSim | Simulation STOP pressed.
+2026-02-19 13:12:37 | INFO    | org.example.Logging init | TrafficSim | Logger ready (console + traffic_sim.log).
+2026-02-19 13:12:37 | INFO    | org.example.Main bootLog | TrafficSim | App boot @ 2026-02-19 13:12:37
+2026-02-19 13:12:37 | INFO    | org.example.VehicleInjection loadTripRoutesFromRou | TrafficSim | Trips loaded: 5
+2026-02-19 13:12:37 | INFO    | org.example.MapVisualisation initBoundsFromFiles | TrafficSim | Map bounds loaded: sumo\final.net.xml
+2026-02-19 13:12:37 | INFO    | org.example.MapVisualisation loadRoadGeometriesFromNet | TrafficSim | Road geometry loaded: 383 lane-shapes from sumo\final.net.xml
+2026-02-19 13:12:38 | INFO    | org.example.GUI launch | TrafficSim | UI ready. Scenarios + long variants will populate after SUMO starts.
+2026-02-19 13:12:38 | INFO    | org.example.LiveConnectionSumo buildRoutesFileWithVTypesOnly | TrafficSim | Temp manual routes file: C:\Users\jaisw\AppData\Local\Temp\manual_only_4012638451800265176.rou.xml
+2026-02-19 13:12:38 | INFO    | org.example.LiveConnectionSumo run | TrafficSim | Starting SUMO: [sumo-gui, -c, sumo/final.sumocfg, --route-files, C:\Users\jaisw\AppData\Local\Temp\manual_only_4012638451800265176.rou.xml, --start, --quit-on-end]
+2026-02-19 13:12:40 | INFO    | org.example.LiveConnectionSumo run | TrafficSim | SUMO started.
+2026-02-19 13:12:40 | INFO    | org.example.VehicleInjection buildViaPoolOnce | TrafficSim | Via-edge pool built: 105
+2026-02-19 13:12:41 | INFO    | org.example.VehicleInjection buildAndInstallLongVariants | TrafficSim | Built 4 long variants for Route 1 type=car (dest=-4824704#0) | Variant A:edges=20 | Variant B:edges=24 | Variant C:edges=17 | Variant D:edges=17
+2026-02-19 13:12:41 | INFO    | org.example.VehicleInjection buildAndInstallLongVariants | TrafficSim | Built 4 long variants for Route 1 type=truck (dest=-4824704#0) | Variant A:edges=24 | Variant B:edges=18 | Variant C:edges=20 | Variant D:edges=17
+2026-02-19 13:12:41 | INFO    | org.example.VehicleInjection buildAndInstallLongVariants | TrafficSim | Built 4 long variants for Route 1 type=bus (dest=-4824704#0) | Variant A:edges=20 | Variant B:edges=18 | Variant C:edges=20 | Variant D:edges=17
+2026-02-19 13:12:42 | INFO    | org.example.VehicleInjection buildAndInstallLongVariants | TrafficSim | Built 4 long variants for Route 2 type=car (dest=-4824710) | Variant A:edges=28 | Variant B:edges=25 | Variant C:edges=17 | Variant D:edges=19
+2026-02-19 13:12:42 | INFO    | org.example.VehicleInjection buildAndInstallLongVariants | TrafficSim | Built 4 long variants for Route 2 type=truck (dest=-4824710) | Variant A:edges=24 | Variant B:edges=23 | Variant C:edges=19 | Variant D:edges=17
+2026-02-19 13:12:42 | INFO    | org.example.VehicleInjection buildAndInstallLongVariants | TrafficSim | Built 4 long variants for Route 2 type=bus (dest=-4824710) | Variant A:edges=19 | Variant B:edges=22 | Variant C:edges=19 | Variant D:edges=19
+2026-02-19 13:12:43 | INFO    | org.example.VehicleInjection buildAndInstallLongVariants | TrafficSim | Built 4 long variants for Route 3 type=car (dest=132963888#1) | Variant A:edges=28 | Variant B:edges=27 | Variant C:edges=27 | Variant D:edges=29
+2026-02-19 13:12:44 | INFO    | org.example.VehicleInjection buildAndInstallLongVariants | TrafficSim | Built 4 long variants for Route 3 type=truck (dest=132963888#1) | Variant A:edges=32 | Variant B:edges=28 | Variant C:edges=27 | Variant D:edges=29
+2026-02-19 13:12:44 | INFO    | org.example.VehicleInjection buildAndInstallLongVariants | TrafficSim | Built 4 long variants for Route 3 type=bus (dest=132963888#1) | Variant A:edges=28 | Variant B:edges=29 | Variant C:edges=30 | Variant D:edges=28
+2026-02-19 13:12:44 | INFO    | org.example.LiveConnectionSumo startSimulation | TrafficSim | Simulation START pressed.
+2026-02-19 13:12:45 | INFO    | org.example.VehicleInjection buildAndInstallLongVariants | TrafficSim | Built 4 long variants for Route 4 type=car (dest=132963888#1) | Variant A:edges=23 | Variant B:edges=18 | Variant C:edges=18 | Variant D:edges=18
+2026-02-19 13:12:45 | INFO    | org.example.VehicleInjection buildAndInstallLongVariants | TrafficSim | Built 4 long variants for Route 4 type=truck (dest=132963888#1) | Variant A:edges=27 | Variant B:edges=24 | Variant C:edges=18 | Variant D:edges=18
+2026-02-19 13:12:45 | INFO    | org.example.VehicleInjection buildAndInstallLongVariants | TrafficSim | Built 4 long variants for Route 4 type=bus (dest=132963888#1) | Variant A:edges=19 | Variant B:edges=18 | Variant C:edges=18 | Variant D:edges=18
+2026-02-19 13:12:46 | INFO    | org.example.VehicleInjection buildAndInstallLongVariants | TrafficSim | Built 4 long variants for Route 5 type=car (dest=132964155) | Variant A:edges=17 | Variant B:edges=21 | Variant C:edges=17 | Variant D:edges=15
+2026-02-19 13:12:47 | INFO    | org.example.VehicleInjection buildAndInstallLongVariants | TrafficSim | Built 4 long variants for Route 5 type=truck (dest=132964155) | Variant A:edges=25 | Variant B:edges=17 | Variant C:edges=21 | Variant D:edges=15
+2026-02-19 13:12:47 | INFO    | org.example.VehicleInjection buildAndInstallLongVariants | TrafficSim | Built 4 long variants for Route 5 type=bus (dest=132964155) | Variant A:edges=19 | Variant B:edges=17 | Variant C:edges=21 | Variant D:edges=15
+2026-02-19 13:12:47 | INFO    | org.example.VehicleInjection rebuildAllowedRoutesAndDropdown | TrafficSim | Dropdown built. Scenarios=5
+2026-02-19 13:13:02 | INFO    | org.example.LiveConnectionSumo stopSimulation | TrafficSim | Simulation STOP pressed.
+2026-02-19 13:31:49 | INFO    | org.example.Logging init | TrafficSim | Logger ready (console + traffic_sim.log).
+2026-02-19 13:31:49 | INFO    | org.example.Main bootLog | TrafficSim | App boot @ 2026-02-19 13:31:49
+2026-02-19 13:31:49 | INFO    | org.example.VehicleInjection loadTripRoutesFromRou | TrafficSim | Trips loaded: 5
+2026-02-19 13:31:49 | INFO    | org.example.MapVisualisation initBoundsFromFiles | TrafficSim | Map bounds loaded: sumo\final.net.xml
+2026-02-19 13:31:50 | INFO    | org.example.MapVisualisation loadRoadGeometriesFromNet | TrafficSim | Road geometry loaded: 383 lane-shapes from sumo\final.net.xml
+2026-02-19 13:31:50 | INFO    | org.example.GUI launch | TrafficSim | UI ready. Scenarios + long variants will populate after SUMO starts.
+2026-02-19 13:31:50 | INFO    | org.example.LiveConnectionSumo buildRoutesFileWithVTypesOnly | TrafficSim | Temp manual routes file: C:\Users\jaisw\AppData\Local\Temp\manual_only_16188270442329644951.rou.xml
+2026-02-19 13:31:50 | INFO    | org.example.LiveConnectionSumo run | TrafficSim | Starting SUMO: [sumo-gui, -c, sumo/final.sumocfg, --route-files, C:\Users\jaisw\AppData\Local\Temp\manual_only_16188270442329644951.rou.xml, --start, --quit-on-end]
+2026-02-19 13:31:53 | INFO    | org.example.LiveConnectionSumo run | TrafficSim | SUMO started.
+2026-02-19 13:31:53 | INFO    | org.example.VehicleInjection buildViaPoolOnce | TrafficSim | Via-edge pool built: 105
+2026-02-19 13:31:53 | INFO    | org.example.VehicleInjection buildAndInstallLongVariants | TrafficSim | Built 4 long variants for Route 1 type=car (dest=-4824704#0) | Variant A:edges=22 | Variant B:edges=18 | Variant C:edges=20 | Variant D:edges=17
+2026-02-19 13:31:54 | INFO    | org.example.VehicleInjection buildAndInstallLongVariants | TrafficSim | Built 4 long variants for Route 1 type=truck (dest=-4824704#0) | Variant A:edges=24 | Variant B:edges=20 | Variant C:edges=20 | Variant D:edges=20
+2026-02-19 13:31:54 | INFO    | org.example.VehicleInjection buildAndInstallLongVariants | TrafficSim | Built 4 long variants for Route 1 type=bus (dest=-4824704#0) | Variant A:edges=22 | Variant B:edges=20 | Variant C:edges=20 | Variant D:edges=18
+2026-02-19 13:31:54 | INFO    | org.example.VehicleInjection buildAndInstallLongVariants | TrafficSim | Built 4 long variants for Route 2 type=car (dest=-4824710) | Variant A:edges=20 | Variant B:edges=19 | Variant C:edges=19 | Variant D:edges=15
+2026-02-19 13:31:55 | INFO    | org.example.VehicleInjection buildAndInstallLongVariants | TrafficSim | Built 4 long variants for Route 2 type=truck (dest=-4824710) | Variant A:edges=30 | Variant B:edges=23 | Variant C:edges=19 | Variant D:edges=19
+2026-02-19 13:31:55 | INFO    | org.example.VehicleInjection buildAndInstallLongVariants | TrafficSim | Built 4 long variants for Route 2 type=bus (dest=-4824710) | Variant A:edges=28 | Variant B:edges=21 | Variant C:edges=19 | Variant D:edges=15
+2026-02-19 13:31:56 | INFO    | org.example.VehicleInjection buildAndInstallLongVariants | TrafficSim | Built 4 long variants for Route 3 type=car (dest=132963888#1) | Variant A:edges=28 | Variant B:edges=29 | Variant C:edges=25 | Variant D:edges=25
+2026-02-19 13:31:56 | INFO    | org.example.VehicleInjection buildAndInstallLongVariants | TrafficSim | Built 4 long variants for Route 3 type=truck (dest=132963888#1) | Variant A:edges=28 | Variant B:edges=27 | Variant C:edges=27 | Variant D:edges=29
+2026-02-19 13:31:57 | INFO    | org.example.VehicleInjection buildAndInstallLongVariants | TrafficSim | Built 4 long variants for Route 3 type=bus (dest=132963888#1) | Variant A:edges=32 | Variant B:edges=28 | Variant C:edges=27 | Variant D:edges=29
+2026-02-19 13:31:57 | INFO    | org.example.VehicleInjection buildAndInstallLongVariants | TrafficSim | Built 4 long variants for Route 4 type=car (dest=132963888#1) | Variant A:edges=22 | Variant B:edges=18 | Variant C:edges=18 | Variant D:edges=18
+2026-02-19 13:31:57 | INFO    | org.example.LiveConnectionSumo startSimulation | TrafficSim | Simulation START pressed.
+2026-02-19 13:31:57 | INFO    | org.example.VehicleInjection buildAndInstallLongVariants | TrafficSim | Built 4 long variants for Route 4 type=truck (dest=132963888#1) | Variant A:edges=28 | Variant B:edges=18 | Variant C:edges=18 | Variant D:edges=19
+2026-02-19 13:31:58 | INFO    | org.example.VehicleInjection buildAndInstallLongVariants | TrafficSim | Built 4 long variants for Route 4 type=bus (dest=132963888#1) | Variant A:edges=23 | Variant B:edges=21 | Variant C:edges=18 | Variant D:edges=18
+2026-02-19 13:31:58 | INFO    | org.example.VehicleInjection buildAndInstallLongVariants | TrafficSim | Built 4 long variants for Route 5 type=car (dest=132964155) | Variant A:edges=23 | Variant B:edges=17 | Variant C:edges=21 | Variant D:edges=15
+2026-02-19 13:31:59 | INFO    | org.example.VehicleInjection buildAndInstallLongVariants | TrafficSim | Built 4 long variants for Route 5 type=truck (dest=132964155) | Variant A:edges=22 | Variant B:edges=17 | Variant C:edges=21 | Variant D:edges=15
+2026-02-19 13:32:00 | INFO    | org.example.VehicleInjection buildAndInstallLongVariants | TrafficSim | Built 4 long variants for Route 5 type=bus (dest=132964155) | Variant A:edges=21 | Variant B:edges=17 | Variant C:edges=21 | Variant D:edges=15
+2026-02-19 13:32:00 | INFO    | org.example.VehicleInjection rebuildAllowedRoutesAndDropdown | TrafficSim | Dropdown built. Scenarios=5
+2026-02-19 13:32:07 | INFO    | org.example.LiveConnectionSumo stopSimulation | TrafficSim | Simulation STOP pressed.
+2026-02-19 13:32:11 | INFO    | org.example.Logging init | TrafficSim | Logger ready (console + traffic_sim.log).
+2026-02-19 13:32:11 | INFO    | org.example.Main bootLog | TrafficSim | App boot @ 2026-02-19 13:32:11
+2026-02-19 13:32:11 | INFO    | org.example.VehicleInjection loadTripRoutesFromRou | TrafficSim | Trips loaded: 5
+2026-02-19 13:32:11 | INFO    | org.example.MapVisualisation initBoundsFromFiles | TrafficSim | Map bounds loaded: sumo\final.net.xml
+2026-02-19 13:32:12 | INFO    | org.example.MapVisualisation loadRoadGeometriesFromNet | TrafficSim | Road geometry loaded: 383 lane-shapes from sumo\final.net.xml
+2026-02-19 13:32:12 | INFO    | org.example.GUI launch | TrafficSim | UI ready. Scenarios + long variants will populate after SUMO starts.
+2026-02-19 13:32:13 | INFO    | org.example.LiveConnectionSumo buildRoutesFileWithVTypesOnly | TrafficSim | Temp manual routes file: C:\Users\jaisw\AppData\Local\Temp\manual_only_3272583611747964083.rou.xml
+2026-02-19 13:32:13 | INFO    | org.example.LiveConnectionSumo run | TrafficSim | Starting SUMO: [sumo-gui, -c, sumo/final.sumocfg, --route-files, C:\Users\jaisw\AppData\Local\Temp\manual_only_3272583611747964083.rou.xml, --start, --quit-on-end]
+2026-02-19 13:32:15 | INFO    | org.example.LiveConnectionSumo run | TrafficSim | SUMO started.
+2026-02-19 13:32:15 | INFO    | org.example.VehicleInjection buildViaPoolOnce | TrafficSim | Via-edge pool built: 105
+2026-02-19 13:32:16 | INFO    | org.example.VehicleInjection buildAndInstallLongVariants | TrafficSim | Built 4 long variants for Route 1 type=car (dest=-4824704#0) | Variant A:edges=22 | Variant B:edges=20 | Variant C:edges=18 | Variant D:edges=17
+2026-02-19 13:32:16 | INFO    | org.example.VehicleInjection buildAndInstallLongVariants | TrafficSim | Built 4 long variants for Route 1 type=truck (dest=-4824704#0) | Variant A:edges=25 | Variant B:edges=20 | Variant C:edges=18 | Variant D:edges=17
+2026-02-19 13:32:17 | INFO    | org.example.VehicleInjection buildAndInstallLongVariants | TrafficSim | Built 4 long variants for Route 1 type=bus (dest=-4824704#0) | Variant A:edges=22 | Variant B:edges=20 | Variant C:edges=20 | Variant D:edges=17
+2026-02-19 13:32:17 | INFO    | org.example.VehicleInjection buildAndInstallLongVariants | TrafficSim | Built 4 long variants for Route 2 type=car (dest=-4824710) | Variant A:edges=24 | Variant B:edges=19 | Variant C:edges=19 | Variant D:edges=19
+2026-02-19 13:32:18 | INFO    | org.example.VehicleInjection buildAndInstallLongVariants | TrafficSim | Built 4 long variants for Route 2 type=truck (dest=-4824710) | Variant A:edges=28 | Variant B:edges=19 | Variant C:edges=17 | Variant D:edges=19
+2026-02-19 13:32:18 | INFO    | org.example.VehicleInjection buildAndInstallLongVariants | TrafficSim | Built 4 long variants for Route 2 type=bus (dest=-4824710) | Variant A:edges=27 | Variant B:edges=21 | Variant C:edges=17 | Variant D:edges=19
+2026-02-19 13:32:18 | INFO    | org.example.VehicleInjection buildAndInstallLongVariants | TrafficSim | Built 4 long variants for Route 3 type=car (dest=132963888#1) | Variant A:edges=28 | Variant B:edges=27 | Variant C:edges=27 | Variant D:edges=29
+2026-02-19 13:32:19 | INFO    | org.example.VehicleInjection buildAndInstallLongVariants | TrafficSim | Built 4 long variants for Route 3 type=truck (dest=132963888#1) | Variant A:edges=28 | Variant B:edges=27 | Variant C:edges=29 | Variant D:edges=30
+2026-02-19 13:32:19 | INFO    | org.example.VehicleInjection buildAndInstallLongVariants | TrafficSim | Built 4 long variants for Route 3 type=bus (dest=132963888#1) | Variant A:edges=28 | Variant B:edges=27 | Variant C:edges=29 | Variant D:edges=30
+2026-02-19 13:32:20 | INFO    | org.example.VehicleInjection buildAndInstallLongVariants | TrafficSim | Built 4 long variants for Route 4 type=car (dest=132963888#1) | Variant A:edges=23 | Variant B:edges=18 | Variant C:edges=18 | Variant D:edges=18
+2026-02-19 13:32:20 | INFO    | org.example.LiveConnectionSumo startSimulation | TrafficSim | Simulation START pressed.
+2026-02-19 13:32:20 | INFO    | org.example.VehicleInjection buildAndInstallLongVariants | TrafficSim | Built 4 long variants for Route 4 type=truck (dest=132963888#1) | Variant A:edges=20 | Variant B:edges=18 | Variant C:edges=18 | Variant D:edges=18
+2026-02-19 13:32:21 | INFO    | org.example.VehicleInjection buildAndInstallLongVariants | TrafficSim | Built 4 long variants for Route 4 type=bus (dest=132963888#1) | Variant A:edges=21 | Variant B:edges=20 | Variant C:edges=18 | Variant D:edges=18
+2026-02-19 13:32:21 | INFO    | org.example.VehicleInjection buildAndInstallLongVariants | TrafficSim | Built 4 long variants for Route 5 type=car (dest=132964155) | Variant A:edges=17 | Variant B:edges=21 | Variant C:edges=15 | Variant D:edges=13
+2026-02-19 13:32:22 | INFO    | org.example.VehicleInjection buildAndInstallLongVariants | TrafficSim | Built 4 long variants for Route 5 type=truck (dest=132964155) | Variant A:edges=17 | Variant B:edges=21 | Variant C:edges=15 | Variant D:edges=13
+2026-02-19 13:32:23 | INFO    | org.example.VehicleInjection buildAndInstallLongVariants | TrafficSim | Built 4 long variants for Route 5 type=bus (dest=132964155) | Variant A:edges=30 | Variant B:edges=17 | Variant C:edges=21 | Variant D:edges=15
+2026-02-19 13:32:23 | INFO    | org.example.VehicleInjection rebuildAllowedRoutesAndDropdown | TrafficSim | Dropdown built. Scenarios=5
+2026-02-19 13:32:47 | INFO    | org.example.LiveConnectionSumo stopSimulation | TrafficSim | Simulation STOP pressed.
